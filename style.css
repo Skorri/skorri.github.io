@@ -34,12 +34,19 @@ h2 {
     padding-right: 30%;
     background-size: 100% 50%;
     text-align: justify;
-    background-color: rgba(192,192,192,0.5);
+    
     
  }
-#ed{
-    color:white;
+p.indent{
+    text-indent: 3em;
 }
+
+ul{
+    background-color: rgba(192,192,192,0.45);
+    padding-left: 5%;
+    font-size: 16pt;
+}
+
 /*--Start Parallax-- https://www.icelandunlimited.is/wp-content/uploads/2014/01/Iceland-honeymoon.jpg"*/
 #portraitskorri{
     padding: 0.5%;
@@ -48,31 +55,48 @@ h2 {
     top: 0px;
     right: 0px;
 }
-.parallax{
+
+.header{
+    
+    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
 
 }
+
 .about{
-        background: url("http://www.iceland.is/iceland-abroad/se/images/media/sefrettir/reykjavik.jpg") repeat fixed center;
+        background: url("https://farm2.staticflickr.com/1591/25134207274_33c77a1ce9_b.jpg") repeat fixed center;
     background-size: 100% 100%;
     padding-top: 2%;
     padding-bottom: 18%;
 }
 
 .education{
-    background: url("http://thenegotiationchallenge.org/wp-content/uploads/2013/11/Reykjavik_University_3478.jpeg") repeat fixed center;
+    background: url("https://farm2.staticflickr.com/1496/25738588396_19d74b2966_b.jpg") repeat fixed center;
     background-size: 100% 100%;
     padding-top: 2%;
     padding-bottom: 30%;
     
     
 }
-.education ul{
-    background-color: rgba(192,192,192,0.5);
-    padding-left: 5%;
-    font-size: 16pt;
-}
 
 .employment{
+    background: url("https://farm2.staticflickr.com/1706/25763255465_b5fc5d2710_b.jpg") repeat fixed center;
+    background-size: 100% 100%;
+    padding-top: 2%;
+    padding-bottom: 30%;
+    
+    
+}
+
+.interests{
+    background: url("https://farm2.staticflickr.com/1441/25136827143_d204e12831_b.jpg") repeat fixed center;
+    background-size: 100% 100%;
+    padding-top: 2%;
+    padding-bottom: 30%;
+    
+    
+}
+
+.joke{
     background: url("http://www.newsky24.com/wp-content/uploads/2015/08/career-opportunities.jpg") repeat fixed center;
     background-size: 100% 100%;
     padding-top: 2%;
@@ -80,11 +104,14 @@ h2 {
     
     
 }
-.header{
-    
-    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
-
+#footer{
+    text-align:center;
+    font-size: 175%;
+    color: white;
+    letter-spacing: 1%;
+    margin 45% 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
-
 
 /*--End Parallax--*/
