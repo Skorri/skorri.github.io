@@ -7,23 +7,23 @@ h1 {
     text-align:center;
     font-size: 575%;
     color: #444444;
-    text-transform: uppercase;
     letter-spacing: 1%;
     margin 45% 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 h2 {
     text-align:center;
     font-size: 275%;
-    color: #E5E5E5;
     text-transform: uppercase;
     letter-spacing: 1%;
 }
 /*--Start Parallax--*/
 
 .parallax{
-    background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
-    
+    background: url("https://www.icelandunlimited.is/wp-content/uploads/2014/01/Iceland-honeymoon.jpg") repeat fixed center 200%;
+    background-size: 100% 100%;
 }
 .parallax-inner{
     padding-top: 18%;
