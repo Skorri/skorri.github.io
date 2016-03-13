@@ -31,10 +31,10 @@ h2 {
 }
 .about p {
     padding-left: 5%;
-    padding-right: 30%;
+    padding-right: 25%;
     background-size: 100% 50%;
     text-align: justify;
-    
+    background-color: rgba(192,192,192,0.55);
     
  }
 p.indent{
@@ -100,12 +100,12 @@ li:last-child {
      background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%;
      background-color: none;
      padding-left: 25%;
-     padding-right: 25%;
+     padding-right: 15%;
 }
 .about{
-        background: url("https://farm2.staticflickr.com/1591/25134207274_33c77a1ce9_b.jpg") repeat fixed center;
+    background: url("https://farm2.staticflickr.com/1591/25134207274_33c77a1ce9_b.jpg") repeat fixed center;
     background-size: 100% 100%;
-    padding-top: 2%;
+    padding-top: 1%;
     padding-bottom: 18%;
 }
 
