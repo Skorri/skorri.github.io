@@ -19,3 +19,12 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 1%;
 }
+/*--Start Parallax--*/
+
+.parallax{
+    background: url("http://ww.w3newbie.com/wp-content/uploads/parallax-2.jpg");
+    
+}
+
+
+/*--End Parallax--*/
