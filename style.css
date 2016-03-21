@@ -37,13 +37,34 @@ h2 {
     background-color: rgba(192,192,192,0.55);
     
  }
-p.indent{
+.indent{
     text-indent: 3em;
 }
 
-ul.shaded{
+.shaded{
     background-color: rgba(192,192,192,0.55);
     padding-left: 5%;
+    font-size: 16pt;
+}
+
+.video{
+    padding-left: 25%;
+    width: 50%;
+    height: 350px;
+    padding-top: 1%;
+    padding-bottom: 0%;
+
+}
+
+#project{
+    background-color: rgba(192,192,192,0.55);
+    padding-left: 3.5%;
+    font-size: 16pt;
+}
+
+#prolist{
+    background-color: rgba(192,192,192,0.55);
+    padding-left: 7%;
     font-size: 16pt;
 }
 
@@ -113,7 +134,7 @@ li:last-child {
     background: url("https://farm2.staticflickr.com/1496/25738588396_19d74b2966_b.jpg") repeat fixed center;
     background-size: 100% 100%;
     padding-top: 2%;
-    padding-bottom: 30%;
+    padding-bottom: 15%;
     
     
 }
